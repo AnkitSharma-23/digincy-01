@@ -94,9 +94,13 @@
 
 .card_a {
     background: #FFFFFF;
-    max-width: 370px;
+    padding: 27px 25px 24px 25px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.max-w-280 {
+    max-width: 280px;
 }
 
 .circle_l {
@@ -106,11 +110,12 @@
     border-radius: 50%;
     color: rgba(55, 55, 55, 1);
 }
-.circle_l:hover{
+
+.circle_l:hover {
     border: 1px solid #FF5300;
 }
 
-.circle_l:hover svg path{
+.circle_l:hover svg path {
     fill: #FF5300;
 }
 
@@ -122,19 +127,19 @@
     color: rgba(55, 55, 55, 1);
 }
 
-.circle_r:hover{
+.circle_r:hover {
     border: 1px solid #FF5300;
 }
 
-.circle_r:hover svg path{
+.circle_r:hover svg path {
     fill: #FF5300;
 }
 
-.slick-dots{
+.slick-dots {
     bottom: 13% !important;
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
     font-size: 20px !important;
 }
 
@@ -155,6 +160,12 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+.card_little:hover {
+    scale: 1.1;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .pb-a4 {

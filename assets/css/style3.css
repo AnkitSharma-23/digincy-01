@@ -86,6 +86,12 @@
     border-radius: 5px;
 }
 
+.btn-1:hover {
+    background-color: white;
+    color: rgba(255, 83, 0, 1);
+    border: 2px solid rgba(255, 83, 0, 1);
+}
+
 .btn-border {
     border: 1px solid rgb(255, 247, 244, );
     width: 135px;
@@ -93,6 +99,10 @@
     background-color: rgba(255, 247, 244, 1);
     border-radius: 10px;
 }
+
+/* header button:hover {
+    background-color: rgba(255, 83, 0, 1) !important;
+} */
 
 header div>a>span {
     color: rgba(255, 83, 0, 1);
@@ -103,7 +113,9 @@ ul li a:hover {
 }
 
 ul li button:hover {
-    color: rgba(255, 83, 0, 1);
+    color: white;
+    background-color: rgba(255, 83, 0, 1);
+    border: none;
 }
 
 .h1 {
@@ -133,6 +145,13 @@ ul li button:hover {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
     padding: 30px 20px 20px 25px;
+    transition: all 200ms linear;
+}
+
+.row-box:hover {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .p-fs {
@@ -207,6 +226,7 @@ ul li button:hover {
 
 
 .email {
+    outline: none;
     border: none;
 }
 
@@ -237,6 +257,26 @@ ul li button:hover {
     fill: #FF5300;
 }
 
+.download-svg {
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+    background-color: #FF5300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-svg :hover path {
+    fill: #FF5300;
+}
+
+.download-svg :hover {
+    background-color: white;
+    border-radius: 100px;
+}
+
 .svg-box {
     width: 50px;
     height: 50px;
@@ -258,6 +298,7 @@ ul li button:hover {
         min-height: 70px;
         border-radius: 5px;
     }
+
     :root {
         --fs-xsm: 16px;
         --fs-sm: 18px;
@@ -272,6 +313,7 @@ ul li button:hover {
         --fw-lg: 500;
         --fw-xl: 600;
     }
+
     .h1 {
         line-height: 40px;
     }
