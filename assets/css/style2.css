@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*----------- color----------- */
+.bg_color_f4 {
+    background: #FFF7F4;
+}
+
+.cl_orange {
+    color: #FF5300;
+}
+
+.cl_black {
+    color: #373737;
+}
+
+.cl_gray_7b {
+    color: #7B7B7B;
+}
+
+/*---- font style--- */
+.ff_poppins {
+    font-family: 'poppins';
+}
+
+.fs_12 {
+    font-size: 12.8px;
+}
+
+.fs_16 {
+    font-size: 16px;
+}
+
+.fs_20 {
+    font-size: 20px;
+}
+
+.fs_25 {
+    font-size: 25px;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_300 {
+    font-weight: 300;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fs_39 {
+    font-size: 39.0625px;
+}
+
+.line2::after {
+    content: '';
+    width: 40px;
+    border: 1px solid #FF5300;
+    position: absolute;
+    bottom: 33%;
+    right: -39%;
+}
+
+.line2::before {
+    content: '';
+    width: 40px;
+    border: 1px solid #FF5300;
+    position: absolute;
+    bottom: 33%;
+    left: -39%;
+}
+
+.card_a {
+    background: #FFFFFF;
+    max-width: 370px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.circle_l {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #373737;
+    border-radius: 50%;
+    color: rgba(55, 55, 55, 1);
+}
+.circle_l:hover{
+    border: 1px solid #FF5300;
+}
+
+.circle_l:hover svg path{
+    fill: #FF5300;
+}
+
+.circle_r {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #373737;
+    border-radius: 50%;
+    color: rgba(55, 55, 55, 1);
+}
+
+.circle_r:hover{
+    border: 1px solid #FF5300;
+}
+
+.circle_r:hover svg path{
+    fill: #FF5300;
+}
+
+.slick-dots{
+    bottom: 13% !important;
+}
+
+.slick-dots li button:before{
+    font-size: 20px !important;
+}
+
+.prev {
+    position: absolute;
+    left: -4%;
+    top: 55%;
+}
+
+.next {
+    position: absolute;
+    right: -4%;
+    top: 55%;
+}
+
+/* ----------Our Capabilities-------- */
+.card_little {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.pb-a4 {
+    padding-bottom: 2.2rem !important;
+}
+
+.line_3::after {
+    content: '';
+    width: 40px;
+    position: absolute;
+    top: 70%;
+    right: -47px;
+    border: 1px solid #FF5300
+}
+
+@media (max-width:1250px) {
+    .prev {
+        position: absolute;
+        left: 4%;
+        top: 88%;
+    }
+
+    .next {
+        position: absolute;
+        right: 4%;
+        top: 88%;
+    }
+}
+
+@media (max-width :576px) {
+    .col_xsm_6 {
+        width: 50% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fs_xsm_30 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .fs_md_18 {
+        font-size: 18px;
+    }
+}
