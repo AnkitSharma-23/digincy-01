@@ -20,7 +20,7 @@
 :root {
     --fs-xsm: 16px;
     --fs-sm: 18px;
-    --fs-md: 20px;
+    --fs-md: 19px;
     --fs-lg: 25px;
     --fs-xl: 39px;
     --fs-2xl: 48px;
@@ -96,7 +96,6 @@
 
 .c-orange {
     color: rgba(255, 83, 0, 1);
-
 }
 
 .c-white {
@@ -124,10 +123,14 @@
     border-radius: 4px;
 }
 
+img,
+svg {
+    vertical-align: baseline !important;
+}
 
 .grid-container {
-    column-count: 3;
-    gap: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
 
 }
 
@@ -194,23 +197,22 @@
     opacity: 1 !important;
 }
 
-@media (min-width:992px) {
-    .project_navigation {
-        width: unset;
-    }
+.w-1170 {
+    width: 1170px;
 }
+
 
 @media (max-width:768px) {
     .grid-container {
-        column-count: 2;
-        gap: 0;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }
 
 @media (max-width:576px) {
     .grid-container {
-        column-count: 1;
-        gap: 0;
+        display: grid;
+        grid-template-columns: auto;
     }
 
 }
