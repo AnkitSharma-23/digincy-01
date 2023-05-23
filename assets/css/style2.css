@@ -181,6 +181,10 @@
     border: 1px solid #FF5300
 }
 
+.gap {
+    gap: 100px;
+}
+
 @media (max-width:1250px) {
     .prev {
         position: absolute;
@@ -192,6 +196,18 @@
         position: absolute;
         right: 4%;
         top: 88%;
+    }
+}
+
+@media (max-width:992px) {
+    .d-none-lg {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .d-none-md {
+        display: none;
     }
 }
 

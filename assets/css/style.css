@@ -103,11 +103,15 @@
 }
 
 .bordr {
-    width: 370px;
-    height: 544px;
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.bordr:hover {
+    scale: 1.1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .line {
@@ -116,7 +120,7 @@
     background-color: #FF5300;
 }
 
-.line-1 {
+.line-5 {
     width: 3px;
     height: 134px;
     background: #FFFFFF;
@@ -142,10 +146,6 @@ svg {
     background: rgba(255, 83, 0, 0.75);
 }
 
-.hover:hover {
-    cursor: pointer;
-    opacity: 1;
-}
 
 .c-black {
     font-family: 'Poppins';
@@ -177,6 +177,12 @@ svg {
     padding: 13px 23px;
 }
 
+.btn-1:hover {
+    background-color: #ffffff;
+    border: 2px solid #FF5300;
+    color: #FF5300;
+}
+
 .pos-absolute {
     position: absolute;
     top: 50%;
@@ -189,18 +195,25 @@ svg {
     width: 1000px;
 }
 
-.gallery_img div {
-    transition: linear 200ms;
+
+
+.hover:hover .innerbox {
+    opacity: 1;
+    cursor: pointer;
 }
 
-.gallery_img:hover div {
-    opacity: 1 !important;
+.innerbox {
+    opacity: 0;
+    transition: all 500ms linear;
 }
 
 .w-1170 {
     width: 1170px;
 }
 
+.fs-19 {
+    font-size: 19px;
+}
 
 @media (max-width:768px) {
     .grid-container {

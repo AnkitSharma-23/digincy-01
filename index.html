@@ -2,15 +2,185 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digiency</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- -----Slick Slider CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylecss link -->
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style2.css">
+    <link rel="stylesheet" href="/assets/css/style3.css">
+    <title>Digiency</title>
 </head>
 
 <body>
+    <!-- -------First Section With Header---- -->
+    <section class="min-vh-100 d-flex flex-column bg-color-1">
+        <header class="position-fixed z-3 w-100">
+            <nav class="py-4 bg-color-1">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a class="fs-xl fm-work-sans color-l" href="#"><span>Digi</span>ency</a>
+                        <input type="checkbox" id="menuIcon" class="d-none">
+                        <label for="menuIcon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <ul class="d-flex align-items-center justify-content-center sm_screen mb-0 ps-0">
+                            <li class="ms-4 ">
+                                <a class="fm-poppins fs-md fw-md color-1 " href="#">Home</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="fm-poppins fs-md fw-md color-1" href="#">About Us</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="fm-poppins fs-md fw-md color-1" href="#">Services</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="fm-poppins fs-md fw-md color-1" href="#">Portfolio</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="fm-poppins fs-md fw-md color-1" href="#">Blog</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="fm-poppins fs-md fw-md color-1" href="#">Contact Us</a>
+                            </li>
+                            <li class="ms-4">
+                                <button class="fm-poppins fs-md fw-md color-1 btn-border" href="#">Let’s Talk</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container mt-10 d-flex align-items-center flex-grow-1">
+            <div class="row fd-sm-cl align-items-center pb-5 mb-5">
+                <div class="col-xl-6 col-12">
+                    <h1 class="fm-poppins fw-xl fs-2xl color-1 mb-3 h1 mt-3 ">Choose What Matters To Your Business &
+                        Your
+                        Customers.
+                    </h1>
+                    <p class="fm-poppins fw-sm fs-xsm color-2 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Aliquam
+                        in digni ssim euismod purus donec mus vulputate habitant iaculis. Com
+                        odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
+                    <button class="btn-s1 fm-poppins fw-md fs-md color-3">Get Start Now</button>
+                </div>
+                <div class="col-xl-6 col-12 mb-xl-0 mb-3">
+                    <div>
+                        <img class="w-100" src="/assets/img/png-A/header-img.png" alt="girl-with-laptop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----Second Section---- -->
+    <section>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center mt-10">
+                <div class="line-1">
+                </div>
+                <h3 class="fs-xsm fw-sm fm-poppins color-4 text-center p-3">Our Services</h3>
+                <div class="line-1"></div>
+            </div>
+            <h1 class="fm-poppins fw-lg fs-xl color-1 text-center mb-4">What We Do</h1>
+            <div class="row mb-10">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/ux-wallpaper/Icons/ux-interface.svg" alt="ux-wallpaper">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">01</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">UX Design</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/gaming-wallpaper/Icons/gaming.svg" alt="gaming-wallpaper">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">02</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">Game Design</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/color-brushes/Icons/design.png" alt="color-brushes">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">03</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">Graphic Design</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/web-design/Icons/web-design.svg" alt="web-design">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">04</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">Web Design</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/app devlopment-1/Icons/mobile-development.svg"
+                                alt="app devlopment">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">05</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">App Development</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="row-box">
+                        <div class="d-flex justify-content-between">
+                            <img src="/assets/img/svg-A/marketing/Icons/digital-marketing.svg" alt="digital-marketing">
+                            <p class="fs-3xl fm-poppins fw-lg color-no">06</p>
+                        </div>
+                        <h1 class="fm-poppins fw-lg fs-lg color-1">Digital Marketing</h1>
+                        <p class="fm-poppins fw-xsm color-2 p-fs">Mobile App, Website</p>
+                        <p class="fm-poppins fw-sm fs-xsm color-2 mb-0">Lorem ipsum dolor sit amet, consec tet ur
+                            adipiscing elit. Accumsan sed faucibu s faucibus
+                            augue. Cras ut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ----Third Section---- -->
     <section class="bg-color py-5">
         <div class="container-1">
@@ -138,9 +308,9 @@
             <div class="grid-container">
                 <div class="position-relative gallery_img hover">
                     <img class="w-100 h-100" src="/assets/img/png/Img4-1.png" alt="Img4-1">
-                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 opacity-0">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
                         <div
-                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box">
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
                             <span>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -153,143 +323,503 @@
                         </div>
                     </div>
                 </div>
-                <img class="w-100 h-100" src="/assets/img/png/Img4-4.png" alt="Img4-2">
-                <img class="w-100 h-100" src="/assets/img/png/img4-7.png" alt="Img4-3">
-                <img class="w-100 h-100" src="/assets/img/png/Img4-2.png" alt="Img4-4">
-                <img class="w-100 h-100" src="/assets/img/png/Img4-5.png" alt="Img4-5">
-                <img class="w-100 h-100" src="/assets/img/png/Img4-8.png" alt="Img4-6">
-                <img class="w-100 h-100" src="/assets/img/png/Img4-3.png" alt="Img4-7">
-                <img class="w-100 h-100" src="/assets/img/png/img4-6.png" alt="img4-8">
-                <img class="w-100 h-100" src="/assets/img/png/Img4-9.png" alt="Img4-9">
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-4.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-7.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-2.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-5.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-8.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-3.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-6.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative gallery_img hover">
+                    <img class="w-100 h-100" src="/assets/img/png/Img4-1.png" alt="Img4-1">
+                    <div class="p-5 position-absolute top-0 start-0 h-100 w-100 innerbox">
+                        <div
+                            class="d-flex justify-content-center align-items-center flex-column h-100 w-100 gallery_box                     ">
+                            <span>
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8333 6.25V10.4167H10.4167V39.5833H39.5833V29.1667H43.75V41.6667C43.75 42.2192 43.5305 42.7491 43.1398 43.1398C42.7491 43.5305 42.2192 43.75 41.6667 43.75H8.33333C7.7808 43.75 7.25089 43.5305 6.86019 43.1398C6.46949 42.7491 6.25 42.2192 6.25 41.6667V8.33333C6.25 7.7808 6.46949 7.25089 6.86019 6.86019C7.25089 6.46949 7.7808 6.25 8.33333 6.25H20.8333ZM36.6375 10.4167H27.0833V6.25H43.75V22.9167H39.5833V13.3625L25 27.9458L22.0542 25L36.6375 10.4167Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h2 class="c-white f-m-poppins fs-lg fw-lg">Web Template</h2>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </section>
+    <!-- Fifth Section (slink-slider)--- -->
+    <section class="bg_color_f4 ">
+        <div class="container position-relative">
+            <div class="pt-5 d-flex align-items-center justify-content-center">
+                <p class="ff_poppins fw_400 fs_16 cl_orange position-relative line2">Our Testimonial</p>
+            </div>
+            <h2
+                class="ff_poppins fw_600 fs_39 fs_xsm_30 cl_black d-flex align-items-center justify-content-center pt-2 pb-5">
+                What
+                Our
+                Client Saying</h2>
+            <div class="move pb-5">
+                <div class="card_a ms-3 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/phillip.png" alt="phillip"></span>
 
-    <section class="py-5 bg-color-1">
-        <div class="container-1 py-5">
-            <div class="d-flex justify-content-between">
-                <div class="flex-column ps-5">
-                    <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M47.656 5.46875H40.9451L37.2732 1.78906C37.1242 1.64516 36.9256 1.56404 36.7185 1.5625H3.90603C3.69883 1.5625 3.50011 1.64481 3.3536 1.79132C3.20709 1.93784 3.12478 2.13655 3.12478 2.34375V3.36719C3.12677 4.50338 3.41391 5.6209 3.95989 6.61732C4.50587 7.61373 5.29322 8.45717 6.24978 9.07031V9.375H5.46853C4.8475 9.37685 4.25243 9.62438 3.8133 10.0635C3.37416 10.5027 3.12663 11.0977 3.12478 11.7188V12.5C3.12663 13.121 3.37416 13.7161 3.8133 14.1552C4.25243 14.5944 4.8475 14.8419 5.46853 14.8438H6.24978V16.4062C6.24739 17.3302 6.42768 18.2456 6.7803 19.0997C7.13292 19.9537 7.65091 20.7296 8.30447 21.3828C8.63553 21.7046 8.99361 21.9973 9.37478 22.2578V22.875C9.37736 23.5475 9.16173 24.2027 8.76025 24.7422C8.35878 25.2818 7.79312 25.6765 7.14822 25.8672L5.46072 26.375C4.33238 26.7088 3.34261 27.3993 2.63977 28.3429C1.93693 29.2866 1.55888 30.4327 1.56228 31.6094V47.6562C1.56228 47.8635 1.64459 48.0622 1.7911 48.2087C1.93761 48.3552 2.13633 48.4375 2.34353 48.4375H47.656C47.8632 48.4375 48.0619 48.3552 48.2085 48.2087C48.355 48.0622 48.4373 47.8635 48.4373 47.6562V6.25C48.4373 6.0428 48.355 5.84409 48.2085 5.69757C48.0619 5.55106 47.8632 5.46875 47.656 5.46875ZM6.24978 13.2812H5.46853C5.26133 13.2812 5.06261 13.1989 4.9161 13.0524C4.76959 12.9059 4.68728 12.7072 4.68728 12.5V11.7188C4.68728 11.5115 4.76959 11.3128 4.9161 11.1663C5.06261 11.0198 5.26133 10.9375 5.46853 10.9375H6.24978V13.2812ZM37.4998 4.22656L41.867 8.59375H37.4998V4.22656ZM35.9373 3.125V9.375C35.9373 9.5822 36.0196 9.78091 36.1661 9.92743C36.3126 10.0739 36.5113 10.1562 36.7185 10.1562H42.9685V42.9688H24.9998V31.6094C25.0032 30.4327 24.6251 29.2866 23.9223 28.3429C23.2194 27.3993 22.2297 26.7088 21.1013 26.375L19.4138 25.8672C18.7689 25.6765 18.2033 25.2818 17.8018 24.7422C17.4003 24.2027 17.1847 23.5475 17.1873 22.875V22.25C18.1479 21.6073 18.9355 20.738 19.4805 19.7189C20.0255 18.6997 20.3112 17.562 20.3123 16.4062V14.8438H21.0935C21.7146 14.8419 22.3096 14.5944 22.7488 14.1552C23.1879 13.7161 23.4354 13.121 23.4373 12.5V11.7188C23.4354 11.0977 23.1879 10.5027 22.7488 10.0635C22.3096 9.62438 21.7146 9.37685 21.0935 9.375H20.3123V7.03125C20.3127 6.30299 20.167 5.58206 19.8839 4.9111C19.6007 4.24014 19.1859 3.63279 18.6638 3.125H35.9373ZM13.281 26.5078L10.2107 25.3594C10.6522 24.6583 10.8977 23.8516 10.9217 23.0234C11.6788 23.2946 12.4767 23.4346 13.281 23.4375C14.0855 23.4367 14.8837 23.2966 15.6404 23.0234C15.6643 23.8516 15.9098 24.6583 16.3513 25.3594L13.281 26.5078ZM14.0388 29.2031L13.6717 29.6875H12.8904L12.5232 29.2031L13.281 28.4453L14.0388 29.2031ZM17.4842 26.6016C17.6395 26.7173 17.8012 26.8242 17.9685 26.9219L16.8826 29.8359L14.6873 27.6484L17.4842 26.6016ZM20.3123 13.2812V10.9375H21.0935C21.3007 10.9375 21.4994 11.0198 21.646 11.1663C21.7925 11.3128 21.8748 11.5115 21.8748 11.7188V12.5C21.8748 12.7072 21.7925 12.9059 21.646 13.0524C21.4994 13.1989 21.3007 13.2812 21.0935 13.2812H20.3123ZM4.68728 3.36719V3.125H14.8435C15.3565 3.125 15.8645 3.22604 16.3384 3.42235C16.8123 3.61865 17.2429 3.90639 17.6057 4.26911C17.9684 4.63184 18.2561 5.06246 18.4524 5.53639C18.6487 6.01032 18.7498 6.51827 18.7498 7.03125V8.59375H9.91384C8.52831 8.59168 7.20011 8.04037 6.22039 7.06064C5.24066 6.08092 4.68935 4.75272 4.68728 3.36719V3.36719ZM7.81228 16.4062V9.82031C8.49039 10.0437 9.19988 10.1571 9.91384 10.1562H18.7498V16.4062C18.7498 17.8567 18.1736 19.2477 17.148 20.2732C16.1224 21.2988 14.7314 21.875 13.281 21.875C11.8306 21.875 10.4396 21.2988 9.41404 20.2732C8.38845 19.2477 7.81228 17.8567 7.81228 16.4062V16.4062ZM9.08572 26.6016L11.8748 27.6484L9.67947 29.8359L8.59353 26.9219C8.75759 26.8203 8.92947 26.7187 9.08572 26.6016V26.6016ZM7.03103 46.875V34.375H5.46853V46.875H3.12478V31.6094C3.12147 30.7686 3.39179 29.9495 3.89492 29.2759C4.39805 28.6022 5.10669 28.1105 5.91384 27.875L7.1404 27.5078L8.6404 31.5234C8.68696 31.6465 8.76351 31.756 8.8631 31.8419C8.9627 31.9279 9.08219 31.9876 9.21072 32.0156C9.26497 32.0247 9.31979 32.0299 9.37478 32.0312C9.58232 32.0319 9.78169 31.9504 9.92947 31.8047L11.406 30.3203L11.6795 30.6797L9.47634 46.875H7.03103ZM11.0545 46.875L13.1795 31.25H13.3826L15.5076 46.875H11.0545ZM23.4373 46.875H21.0935V34.375H19.531V46.875H17.0857L14.8826 30.6797L15.156 30.3203L16.6326 31.8047C16.7804 31.9504 16.9797 32.0319 17.1873 32.0312C17.2423 32.0299 17.2971 32.0247 17.3513 32.0156C17.4799 31.9876 17.5994 31.9279 17.699 31.8419C17.7986 31.756 17.8751 31.6465 17.9217 31.5234L19.4217 27.5078L20.6482 27.875C21.4554 28.1105 22.164 28.6022 22.6671 29.2759C23.1703 29.9495 23.4406 30.7686 23.4373 31.6094V46.875ZM46.8748 46.875H24.9998V44.5312H43.7498C43.957 44.5312 44.1557 44.4489 44.3022 44.3024C44.4487 44.1559 44.531 43.9572 44.531 43.75V9.375C44.5295 9.16788 44.4484 8.96928 44.3045 8.82031L42.5076 7.03125H46.8748V46.875Z"
-                                fill="white" />
-                            <path
-                                d="M25.0539 17.9688H22.6562V19.5312H25.0539C25.2292 20.9061 25.856 22.1839 26.8361 23.1639C27.8161 24.144 29.0939 24.7708 30.4688 24.9461V27.3438H32.0312V24.9461C33.4061 24.7708 34.6839 24.144 35.6639 23.1639C36.644 22.1839 37.2708 20.9061 37.4461 19.5312H39.8438V17.9688H37.4461C37.2708 16.5939 36.644 15.3161 35.6639 14.3361C34.6839 13.356 33.4061 12.7292 32.0312 12.5539V10.1562H30.4688V12.5539C29.0939 12.7292 27.8161 13.356 26.8361 14.3361C25.856 15.3161 25.2292 16.5939 25.0539 17.9688ZM30.4688 14.1328V15.625H32.0312V14.1328C32.989 14.2965 33.8724 14.7534 34.5595 15.4405C35.2466 16.1276 35.7035 17.011 35.8672 17.9688H34.375V19.5312H35.8672C35.7035 20.489 35.2466 21.3724 34.5595 22.0595C33.8724 22.7466 32.989 23.2035 32.0312 23.3672V21.875H30.4688V23.3672C29.511 23.2035 28.6276 22.7466 27.9405 22.0595C27.2534 21.3724 26.7965 20.489 26.6328 19.5312H28.125V17.9688H26.6328C26.7965 17.011 27.2534 16.1276 27.9405 15.4405C28.6276 14.7534 29.511 14.2965 30.4688 14.1328Z"
-                                fill="white" />
-                            <path d="M39.8438 29.6875H26.5625V31.25H39.8438V29.6875Z" fill="white" />
-                            <path d="M28.9062 32.8125H26.5625V34.375H28.9062V32.8125Z" fill="white" />
-                            <path d="M39.8438 32.8125H30.4688V34.375H39.8438V32.8125Z" fill="white" />
-                            <path d="M39.8438 35.9375H26.5625V37.5H39.8438V35.9375Z" fill="white" />
-                            <path
-                                d="M13.2812 20.3125C15.0336 20.3125 16.4062 19.2828 16.4062 17.9688H14.8438C14.8438 18.2875 14.2352 18.75 13.2812 18.75C12.3273 18.75 11.7188 18.2875 11.7188 17.9688H10.1562C10.1562 19.2828 11.5289 20.3125 13.2812 20.3125Z"
-                                fill="white" />
-                            <path
-                                d="M10.9375 14.8438C11.1447 14.8438 11.3434 14.7614 11.4899 14.6149C11.6364 14.4684 11.7188 14.2697 11.7188 14.0625V13.2812C11.7188 13.074 11.6364 12.8753 11.4899 12.7288C11.3434 12.5823 11.1447 12.5 10.9375 12.5C10.7303 12.5 10.5316 12.5823 10.3851 12.7288C10.2386 12.8753 10.1562 13.074 10.1562 13.2812V14.0625C10.1562 14.2697 10.2386 14.4684 10.3851 14.6149C10.5316 14.7614 10.7303 14.8438 10.9375 14.8438Z"
-                                fill="white" />
-                            <path
-                                d="M15.625 14.8438C15.8322 14.8438 16.0309 14.7614 16.1774 14.6149C16.3239 14.4684 16.4062 14.2697 16.4062 14.0625V13.2812C16.4062 13.074 16.3239 12.8753 16.1774 12.7288C16.0309 12.5823 15.8322 12.5 15.625 12.5C15.4178 12.5 15.2191 12.5823 15.0726 12.7288C14.9261 12.8753 14.8438 13.074 14.8438 13.2812V14.0625C14.8438 14.2697 14.9261 14.4684 15.0726 14.6149C15.2191 14.7614 15.4178 14.8438 15.625 14.8438Z"
-                                fill="white" />
-                        </svg>
-                    </span>
-                    <h3 class="c-white  f-m-poppins fs-xl fw-lg">120</h3>
-                    <p class="c-white f-m-poppins fs-md fw-md">Top Experts</p>
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 cl_orange m-0">Phillip Levin</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-3 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="quote">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line-1"></div>
+                <div class="card_a ms-3 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/lincoln.png" alt="lincoln"></span>
 
-                <div class="flex-column">
-                    <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M1.71981 39.5313L3.79272 42.2951L1.62673 47.3484C1.49551 47.6551 1.57256 48.011 1.81976 48.235C1.967 48.3685 2.15544 48.4375 2.34465 48.4375C2.47359 48.4375 2.60329 48.4059 2.72079 48.3406L18.3458 39.7469C18.596 39.6099 18.7509 39.3475 18.7509 39.0625C18.7509 38.7776 18.596 38.5151 18.3458 38.3782L2.72079 29.7844C2.43087 29.6238 2.06695 29.6654 1.81976 29.8901C1.57256 30.114 1.49551 30.4699 1.62673 30.7766L3.79272 35.8299L1.71981 38.5937C1.51152 38.8714 1.51152 39.2536 1.71981 39.5313ZM5.25093 42.858L12.5851 41.1323L3.95675 45.8779L5.25093 42.858ZM12.5851 36.9927L5.25093 35.267L3.95674 32.2472L12.5851 36.9927ZM5.0066 36.8152L14.5576 39.0625L5.0066 41.3098L3.32122 39.0625L5.0066 36.8152Z"
-                                fill="white" />
-                            <path
-                                d="M35.9375 1.5625C29.3088 1.5625 23.8837 6.7532 23.4771 13.2812H21.4172L19.3024 11.1664L18.1976 12.2711L19.2078 13.2812H16.0156C11.4922 13.2812 7.8125 16.9613 7.8125 21.4844C7.8125 26.0075 11.4922 29.6875 16.0156 29.6875H24.6765L26.7914 31.8024L27.8961 30.6976L26.886 29.6875H41.7969C44.1658 29.6875 46.0938 31.6151 46.0938 33.9844C46.0938 36.3537 44.1658 38.2812 41.7969 38.2812H34.6985L32.5836 36.1664L31.4789 37.2711L32.489 38.2812H20.3125V39.8438H32.489L31.4789 40.8539L32.5836 41.9586L34.6985 39.8438H41.7969C45.0279 39.8438 47.6562 37.2154 47.6562 33.9844C47.6562 30.7533 45.0279 28.125 41.7969 28.125H26.886L27.8961 27.1149L26.7914 26.0101L24.6765 28.125H16.0156C12.3543 28.125 9.375 25.1461 9.375 21.4844C9.375 17.8226 12.3543 14.8438 16.0156 14.8438H19.2078L18.1976 15.8539L19.3024 16.9586L21.4172 14.8438H23.4771C23.8837 21.3718 29.3088 26.5625 35.9375 26.5625C42.8299 26.5625 48.4375 20.9549 48.4375 14.0625C48.4375 7.1701 42.8299 1.5625 35.9375 1.5625ZM35.9375 25C30.1702 25 25.4429 20.5101 25.0396 14.8438H27.3833C27.7798 19.2171 31.4626 22.6562 35.9375 22.6562C40.6761 22.6562 44.5312 18.8011 44.5312 14.0625C44.5312 9.32388 40.6761 5.46875 35.9375 5.46875C31.4626 5.46875 27.7798 8.90789 27.3833 13.2812H25.0396C25.4429 7.6149 30.1702 3.125 35.9375 3.125C41.9685 3.125 46.875 8.03146 46.875 14.0625C46.875 20.0935 41.9685 25 35.9375 25ZM34.1461 16.9586L36.4899 14.6149C36.795 14.3097 36.795 13.8153 36.4899 13.5101L34.1461 11.1664L33.0414 12.2711L34.0515 13.2812H28.9524C29.3426 9.77111 32.3246 7.03125 35.9375 7.03125C39.8148 7.03125 42.9688 10.1856 42.9688 14.0625C42.9688 17.9394 39.8148 21.0938 35.9375 21.0938C32.3246 21.0938 29.3426 18.3539 28.9524 14.8438H34.0515L33.0414 15.8539L34.1461 16.9586Z"
-                                fill="white" />
-                            <path
-                                d="M40.625 14.0625C40.625 11.4777 38.5223 9.375 35.9375 9.375V10.9375C37.661 10.9375 39.0625 12.3394 39.0625 14.0625C39.0625 15.7856 37.661 17.1875 35.9375 17.1875V18.75C38.5223 18.75 40.625 16.6473 40.625 14.0625Z"
-                                fill="white" />
-                        </svg>
-                    </span>
-                    <h3 class="c-white f-m-poppins fs-xl fw-lg">500</h3>
-                    <p class="c-white f-m-poppins fs-md fw-md">Strategies</p>
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 fs_md_18 cl_orange m-0">Lincoln Lipshutz</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-3 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line-1"></div>
+                <div class="card_a ms-3 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/caring.png" alt="caring"></span>
 
-
-                <div class="flex-column">
-                    <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_450_266)">
-                                <path
-                                    d="M49.7139 9.17148L40.8271 0.286035C40.644 0.10293 40.3957 0 40.1367 0H11.1328C9.51738 0 8.20312 1.31426 8.20312 2.92969V4.79141C3.40576 6.67324 0 11.3491 0 16.8058C0 17.345 0.437305 17.7823 0.976562 17.7823H12.8995C13.4388 17.7823 13.8761 17.345 13.8761 16.8058V4.88281C13.8761 4.34355 13.4388 3.90625 12.8995 3.90625C11.9583 3.90625 11.0407 4.0085 10.1562 4.20088V2.92969C10.1562 2.39121 10.5943 1.95312 11.1328 1.95312H39.1602V7.91016C39.1602 9.52559 40.4744 10.8398 42.0898 10.8398H48.0469V47.0703C48.0469 47.6088 47.6088 48.0469 47.0703 48.0469H11.1328C10.5943 48.0469 10.1562 47.6088 10.1562 47.0703V38.7044C10.1562 38.1651 9.71895 37.7278 9.17969 37.7278C8.64043 37.7278 8.20312 38.1651 8.20312 38.7044V47.0703C8.20312 48.6857 9.51738 50 11.1328 50H47.0703C48.6857 50 50 48.6857 50 47.0703V9.86201C50 9.60303 49.8971 9.35459 49.7139 9.17148ZM11.9229 5.90264V15.8292H1.99629C2.46318 10.5706 6.66436 6.36953 11.9229 5.90264ZM42.0898 8.88672C41.5514 8.88672 41.1133 8.44863 41.1133 7.91016V3.33398L46.6668 8.88672H42.0898Z"
-                                    fill="white" />
-                                <path
-                                    d="M9.87002 34.4658C9.68848 34.2841 9.43652 34.1797 9.17969 34.1797C8.92285 34.1797 8.6709 34.2841 8.48926 34.4658C8.30762 34.6475 8.20312 34.8994 8.20312 35.1562C8.20312 35.4131 8.30752 35.665 8.48926 35.8466C8.6709 36.0283 8.92285 36.1328 9.17969 36.1328C9.43652 36.1328 9.68848 36.0283 9.87002 35.8466C10.0518 35.665 10.1562 35.4131 10.1562 35.1562C10.1562 34.8994 10.0518 34.6475 9.87002 34.4658Z"
-                                    fill="white" />
-                                <path
-                                    d="M16.3979 7.4043C15.8587 7.4043 15.4214 7.8416 15.4214 8.38086V19.3271H4.4751C3.93584 19.3271 3.49854 19.7645 3.49854 20.3037C3.49854 27.4165 9.28516 33.2032 16.3979 33.2032C23.5107 33.2032 29.2975 27.4165 29.2975 20.3037C29.2975 13.1909 23.5107 7.4043 16.3979 7.4043ZM17.3745 9.40068C19.6606 9.60361 21.7467 10.5128 23.4132 11.9075L17.3745 17.9461V9.40068ZM16.3979 31.2501C10.6912 31.2501 5.99033 26.8605 5.49492 21.2803H16.3979C16.6675 21.2803 16.9114 21.1711 17.0882 20.9945C17.0883 20.9944 17.0884 20.9944 17.0886 20.9942L24.7945 13.2884C26.3854 15.1895 27.3443 17.6367 27.3443 20.3037C27.3443 26.3396 22.4338 31.2501 16.3979 31.2501Z"
-                                    fill="white" />
-                                <path
-                                    d="M42.7811 30.8208C41.1656 30.8208 39.8514 32.1351 39.8514 33.7505C39.8514 34.1554 39.934 34.5412 40.0831 34.8923L34.4568 40.5186C34.0702 40.3302 33.6362 40.2242 33.178 40.2242C32.7307 40.2242 32.3066 40.3254 31.9271 40.5054L28.1909 36.7692C28.3204 36.4388 28.3923 36.0795 28.3923 35.7035C28.3923 34.0881 27.078 32.7738 25.4626 32.7738C23.8472 32.7738 22.5329 34.0881 22.5329 35.7035C22.5329 36.1412 22.6301 36.5564 22.8029 36.9298L19.2194 40.5133C18.8377 40.3307 18.4105 40.2282 17.96 40.2282C16.3445 40.2282 15.0303 41.5425 15.0303 43.1579C15.0303 44.7733 16.3445 46.0876 17.96 46.0876C19.5754 46.0876 20.8896 44.7733 20.8896 43.1579C20.8896 42.7051 20.7863 42.276 20.6021 41.8929L24.1656 38.3294C24.5569 38.5235 24.9972 38.6332 25.4628 38.6332C25.9887 38.6332 26.4821 38.4933 26.9092 38.2497L30.5399 41.8805C30.3532 42.2657 30.2483 42.6978 30.2483 43.1539C30.2483 44.7693 31.5626 46.0836 33.178 46.0836C34.7935 46.0836 36.1077 44.7693 36.1077 43.1539C36.1077 42.7088 36.0075 42.2867 35.8291 41.9086L41.4028 36.3349C41.8139 36.555 42.2831 36.6802 42.7811 36.6802C44.3965 36.6802 45.7107 35.3659 45.7107 33.7505C45.7107 32.1351 44.3965 30.8208 42.7811 30.8208ZM17.9599 44.1346C17.4214 44.1346 16.9833 43.6965 16.9833 43.158C16.9833 42.6195 17.4214 42.1814 17.9599 42.1814C18.2221 42.1814 18.4599 42.2858 18.6354 42.4546C18.6394 42.4587 18.6428 42.4631 18.6468 42.4671C18.6515 42.4718 18.6565 42.4757 18.6613 42.4802C18.8313 42.656 18.9364 42.8948 18.9364 43.158C18.9364 43.6964 18.4983 44.1346 17.9599 44.1346ZM25.4626 36.6801C24.9241 36.6801 24.486 36.242 24.486 35.7035C24.486 35.165 24.9241 34.727 25.4626 34.727C26.0011 34.727 26.4392 35.165 26.4392 35.7035C26.4392 36.242 26.0011 36.6801 25.4626 36.6801ZM33.1778 44.1305C32.6394 44.1305 32.2013 43.6924 32.2013 43.1539C32.2013 42.6154 32.6394 42.1773 33.1778 42.1773C33.7163 42.1773 34.1544 42.6154 34.1544 43.1539C34.1544 43.6924 33.7163 44.1305 33.1778 44.1305ZM42.7809 34.727C42.2424 34.727 41.8043 34.2889 41.8043 33.7504C41.8043 33.2119 42.2425 32.7738 42.7809 32.7738C43.3193 32.7738 43.7574 33.2119 43.7574 33.7504C43.7574 34.2889 43.3193 34.727 42.7809 34.727Z"
-                                    fill="white" />
-                                <path
-                                    d="M37.8998 22.9492H32.7456C32.2063 22.9492 31.769 23.3865 31.769 23.9258C31.769 24.465 32.2062 24.9023 32.7456 24.9023H37.8998C38.4391 24.9023 38.8764 24.465 38.8764 23.9258C38.8764 23.3865 38.4391 22.9492 37.8998 22.9492Z"
-                                    fill="white" />
-                                <path
-                                    d="M43.037 23.2354C42.8555 23.0537 42.6035 22.9492 42.3467 22.9492C42.0898 22.9492 41.8379 23.0536 41.6562 23.2354C41.4746 23.417 41.3701 23.6689 41.3701 23.9258C41.3701 24.1826 41.4745 24.4346 41.6562 24.6161C41.8379 24.7978 42.0889 24.9023 42.3467 24.9023C42.6035 24.9023 42.8555 24.7979 43.037 24.6161C43.2187 24.4346 43.3232 24.1826 43.3232 23.9258C43.3232 23.6689 43.2188 23.417 43.037 23.2354Z"
-                                    fill="white" />
-                                <path
-                                    d="M44.6747 13.5742H32.7456C32.2063 13.5742 31.769 14.0115 31.769 14.5508C31.769 15.09 32.2062 15.5273 32.7456 15.5273H44.6747C45.214 15.5273 45.6513 15.09 45.6513 14.5508C45.6513 14.0115 45.214 13.5742 44.6747 13.5742Z"
-                                    fill="white" />
-                                <path
-                                    d="M44.6747 18.2617H32.7456C32.2063 18.2617 31.769 18.699 31.769 19.2383C31.769 19.7775 32.2062 20.2148 32.7456 20.2148H44.6747C45.214 20.2148 45.6513 19.7775 45.6513 19.2383C45.6513 18.699 45.214 18.2617 44.6747 18.2617Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_450_266">
-                                    <rect width="50" height="50" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </span>
-                    <h3 class="c-white f-m-poppins fs-xl fw-lg">347</h3>
-                    <p class="c-white f-m-poppins fs-md fw-md">Great Results</p>
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 cl_orange m-0">Craig Siphron</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-3 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="line-1"></div>
-                <div class="flex-column">
-                    <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M47.6562 43.7501H46.875V15.6251C46.875 15.4179 46.7927 15.2192 46.6462 15.0726C46.4997 14.9261 46.3009 14.8438 46.0938 14.8438H33.8234C34.4422 13.0752 34.8495 11.2395 35.0367 9.37508H39.0625C39.217 9.37504 39.368 9.32921 39.4965 9.24336C39.6249 9.15751 39.725 9.03551 39.7841 8.89278C39.8432 8.75004 39.8587 8.59298 39.8286 8.44146C39.7985 8.28993 39.7241 8.15074 39.6148 8.04148L33.3648 1.79148C33.2183 1.64502 33.0197 1.56274 32.8125 1.56274C32.6053 1.56274 32.4067 1.64502 32.2602 1.79148L26.0102 8.04148C25.9009 8.15074 25.8265 8.28993 25.7964 8.44146C25.7663 8.59298 25.7818 8.75004 25.8409 8.89278C25.9 9.03551 26.0001 9.15751 26.1285 9.24336C26.257 9.32921 26.408 9.37504 26.5625 9.37508H29.0289C28.1166 11.4385 26.7997 13.2981 25.1562 14.8438H3.90625C3.69905 14.8438 3.50034 14.9261 3.35382 15.0726C3.20731 15.2192 3.125 15.4179 3.125 15.6251V43.7501H2.34375C2.13655 43.7501 1.93784 43.8324 1.79132 43.9789C1.64481 44.1254 1.5625 44.3241 1.5625 44.5313V46.0938C1.5625 46.7154 1.80943 47.3116 2.24897 47.7511C2.68851 48.1906 3.28465 48.4376 3.90625 48.4376H46.0938C46.7154 48.4376 47.3115 48.1906 47.751 47.7511C48.1906 47.3116 48.4375 46.7154 48.4375 46.0938V44.5313C48.4375 44.3241 48.3552 44.1254 48.2087 43.9789C48.0622 43.8324 47.8634 43.7501 47.6562 43.7501ZM30.9188 8.86023C30.9616 8.74224 30.9753 8.61567 30.9588 8.49124C30.9423 8.3668 30.8961 8.24818 30.8241 8.14539C30.752 8.04261 30.6563 7.9587 30.5449 7.90077C30.4336 7.84284 30.3099 7.81259 30.1844 7.81258H28.4484L32.8125 3.44851L37.1766 7.81258H34.3172C34.1186 7.81214 33.9273 7.88734 33.7822 8.02288C33.6371 8.15842 33.549 8.34413 33.5359 8.54226C33.1772 13.6982 31.0525 18.573 27.5197 22.3456C23.987 26.1181 19.262 28.5579 14.1406 29.254L11.7188 29.5759V21.0087C15.8095 21.3766 19.9076 20.3858 23.3784 18.1897C26.8493 15.9936 29.4995 12.7145 30.9188 8.86023ZM4.6875 16.4063H23.2258C19.7399 18.8698 15.4546 19.9313 11.2219 19.3798L11.0437 19.3548C10.9331 19.3396 10.8205 19.3483 10.7136 19.3803C10.6066 19.4123 10.5077 19.4669 10.4236 19.5403C10.3395 19.6137 10.2721 19.7043 10.226 19.806C10.1799 19.9077 10.1561 20.0181 10.1562 20.1298V30.4688C10.1562 30.676 10.2386 30.8747 10.3851 31.0213C10.5316 31.1678 10.7303 31.2501 10.9375 31.2501C10.972 31.2501 11.0064 31.2477 11.0406 31.243L14.3438 30.8032C18.466 30.241 22.3718 28.6189 25.6795 26.0955C28.9872 23.572 31.5835 20.2335 33.2148 16.4063H45.3125V43.7501H43.75V18.7501C43.75 18.5429 43.6677 18.3442 43.5212 18.1976C43.3747 18.0511 43.1759 17.9688 42.9688 17.9688H34.375V19.5313H42.1875V43.7501H7.8125V19.5313H9.375V17.9688H7.03125C6.82405 17.9688 6.62534 18.0511 6.47882 18.1976C6.33231 18.3442 6.25 18.5429 6.25 18.7501V43.7501H4.6875V16.4063ZM46.875 46.0938C46.875 46.301 46.7927 46.4997 46.6462 46.6463C46.4997 46.7928 46.3009 46.8751 46.0938 46.8751H3.90625C3.69905 46.8751 3.50034 46.7928 3.35382 46.6463C3.20731 46.4997 3.125 46.301 3.125 46.0938V45.3126H46.875V46.0938Z"
-                                fill="white" />
-                            <path
-                                d="M9.375 42.9688H40.625V41.4062H37.5V23.4375C37.5 23.2303 37.4177 23.0316 37.2712 22.8851C37.1247 22.7386 36.926 22.6562 36.7188 22.6562H32.0312C31.824 22.6562 31.6253 22.7386 31.4788 22.8851C31.3323 23.0316 31.25 23.2303 31.25 23.4375V41.4062H28.125V29.6875C28.125 29.4803 28.0427 29.2816 27.8962 29.1351C27.7497 28.9886 27.551 28.9062 27.3438 28.9062H22.6562C22.449 28.9062 22.2503 28.9886 22.1038 29.1351C21.9573 29.2816 21.875 29.4803 21.875 29.6875V41.4062H18.75V33.5938C18.75 33.3865 18.6677 33.1878 18.5212 33.0413C18.3747 32.8948 18.176 32.8125 17.9688 32.8125H13.2812C13.074 32.8125 12.8753 32.8948 12.7288 33.0413C12.5823 33.1878 12.5 33.3865 12.5 33.5938V41.4062H9.375V42.9688ZM32.8125 24.2188H35.9375V41.4062H32.8125V24.2188ZM23.4375 30.4688H26.5625V41.4062H23.4375V30.4688ZM14.0625 34.375H17.1875V41.4062H14.0625V34.375Z"
-                                fill="white" />
-                            <path d="M21.0938 1.5625H22.6562V3.125H21.0938V1.5625Z" fill="white" />
-                            <path d="M22.6562 3.125H24.2188V4.6875H22.6562V3.125Z" fill="white" />
-                            <path d="M21.0938 4.6875H22.6562V6.25H21.0938V4.6875Z" fill="white" />
-                            <path d="M19.5312 3.125H21.0938V4.6875H19.5312V3.125Z" fill="white" />
-                            <path d="M17.9688 7.8125H19.5312V9.375H17.9688V7.8125Z" fill="white" />
-                            <path d="M46.875 9.375H48.4375V10.9375H46.875V9.375Z" fill="white" />
-                            <path d="M45.3125 10.9375H46.875V12.5H45.3125V10.9375Z" fill="white" />
-                            <path d="M43.75 9.375H45.3125V10.9375H43.75V9.375Z" fill="white" />
-                            <path d="M45.3125 7.8125H46.875V9.375H45.3125V7.8125Z" fill="white" />
-                            <path d="M42.1875 4.6875H43.75V6.25H42.1875V4.6875Z" fill="white" />
-                            <path
-                                d="M14.0625 25.0001H12.5V27.3438C12.5 27.551 12.5823 27.7498 12.7288 27.8963C12.8753 28.0428 13.074 28.1251 13.2812 28.1251C15.951 28.0088 18.5357 27.1518 20.7461 25.6501L19.8789 24.3501C18.138 25.5218 16.1452 26.2664 14.0625 26.5235V25.0001Z"
-                                fill="white" />
-                            <path d="M12.5 21.875H14.0625V23.4375H12.5V21.875Z" fill="white" />
-                        </svg>
-                    </span>
-                    <h3 class="c-white f-m-poppins fs-xl fw-lg">120</h3>
-                    <p class="c-white f-m-poppins fs-md fw-md pe-5">Hight Rankings</p>
+                <div class="card_a ms-3 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/phillip.png" alt="phillip"></span>
+
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 cl_orange m-0">Phillip Levin</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-3 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_a ms-3 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/lincoln.png" alt="lincoln"></span>
+
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 fs_md_18 cl_orange m-0">Lincoln Lipshutz</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-4 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_a ms-3 mb-5 pb-3">
+                    <div class="ps-3 d-flex">
+                        <span><img class="pt-3" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/stare.png" alt="stare"></span>
+                        <span><img class="pt-3 ps-2" src="./assets/img/png/h_stare.png" alt="stare"></span>
+                    </div>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b ps-3 pe-3 pt-2 max-w-280">Lorem ipsum dolor sit amet,
+                        consecte tur
+                        adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.</p>
+                    <div class="d-flex">
+                        <span class="pt-2 ps-3"><img src="./assets/img/png/caring.png" alt="caring"></span>
+
+                        <div class="d-flex justify-content-between m-0 w-100 ps-2 pt-3">
+                            <div>
+                                <p class="ff_poppins fw_500 fs_20 cl_orange m-0">Craig Siphron</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_gray_7b">CEO / Creative IT</p>
+                            </div>
+                            <div class="pe-3 pt-2">
+                                <img src="./assets/img/png/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="prev circle_l d-flex align-items-center justify-content-center d-none d-sm-flex"><svg
+                    width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3.53491 8.00008L9.72241 14.1876L7.95491 15.9551L-8.60889e-05 8.00008L7.95491 0.04508L9.72241 1.81258L3.53491 8.00008Z"
+                        fill="#373737" />
+                </svg>
+            </a>
+
+            <a href="#" class="next circle_r d-flex align-items-center justify-content-center d-none d-sm-flex"><svg
+                    width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.46484 7.99992L0.277344 1.81242L2.04484 0.0449219L9.99984 7.99992L2.04484 15.9549L0.277344 14.1874L6.46484 7.99992Z"
+                        fill="#373737" />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- Sixth Section (Our Capabilities) -->
+    <section>
+        <div class="container">
+            <div class="row py-5 align-items-center">
+                <div class="col-xl-6 col-lg-6">
+                    <p class="ff_poppins fw_400 fs_16 cl_orange position-relative m-0 d-inline-block line_3">Our
+                        Capabilities</p>
+                    <p class="ff_poppins fw_600 fs_39 cl_black pt-1 fs_xsm_30">Forward Thinking Team Of
+                        Designers & Developers</p>
+                    <p class="ff_poppins fw_400 fs_16 cl_gray_7b pt-1 m-0">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Cursus ut nisi, amet rhoncus volutpat
+                        neque. Ipsum in aliquam eget vitae purus felis eget massa felis. Eu mattis in malesuada facilisi
+                        proin vel.</p>
+                    <div class="row pt-4">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col_xsm_6">
+                            <div class="card_little text-center">
+                                <p class="ff_poppins fw_600 fs_25 cl_orange pt-1">80%</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_black pt-1 pb-3">Softwer<br>
+                                    Development</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col_xsm_6">
+                            <div class="card_little text-center">
+                                <p class="ff_poppins fw_600 fs_25 cl_orange pt-1">90%</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_black pt-1 pb-a4">Graphic Design</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col_xsm_6">
+                            <div class="card_little text-center">
+                                <p class="ff_poppins fw_600 fs_25 cl_orange pt-1">85%</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_black pt-1 pb-a4">Game Deisgn</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col_xsm_6">
+                            <div class="card_little text-center">
+                                <p class="ff_poppins fw_600 fs_25 cl_orange pt-1">100%</p>
+                                <p class="ff_poppins fw_300 fs_12 cl_black pt-1 pb-3">web<br>
+                                    Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <img class="w-100" src="./assets/img/png/explainer.png" alt="Game Deisgn">
+                </div>
+            </div>
+            <div class="py-4 bg-color-2 br-10">
+                <div class="container-1 py-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center gap">
+                            <div class="d-flex align-items-center justify-content-center flex-column">
+                                <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M47.656 5.46875H40.9451L37.2732 1.78906C37.1242 1.64516 36.9256 1.56404 36.7185 1.5625H3.90603C3.69883 1.5625 3.50011 1.64481 3.3536 1.79132C3.20709 1.93784 3.12478 2.13655 3.12478 2.34375V3.36719C3.12677 4.50338 3.41391 5.6209 3.95989 6.61732C4.50587 7.61373 5.29322 8.45717 6.24978 9.07031V9.375H5.46853C4.8475 9.37685 4.25243 9.62438 3.8133 10.0635C3.37416 10.5027 3.12663 11.0977 3.12478 11.7188V12.5C3.12663 13.121 3.37416 13.7161 3.8133 14.1552C4.25243 14.5944 4.8475 14.8419 5.46853 14.8438H6.24978V16.4062C6.24739 17.3302 6.42768 18.2456 6.7803 19.0997C7.13292 19.9537 7.65091 20.7296 8.30447 21.3828C8.63553 21.7046 8.99361 21.9973 9.37478 22.2578V22.875C9.37736 23.5475 9.16173 24.2027 8.76025 24.7422C8.35878 25.2818 7.79312 25.6765 7.14822 25.8672L5.46072 26.375C4.33238 26.7088 3.34261 27.3993 2.63977 28.3429C1.93693 29.2866 1.55888 30.4327 1.56228 31.6094V47.6562C1.56228 47.8635 1.64459 48.0622 1.7911 48.2087C1.93761 48.3552 2.13633 48.4375 2.34353 48.4375H47.656C47.8632 48.4375 48.0619 48.3552 48.2085 48.2087C48.355 48.0622 48.4373 47.8635 48.4373 47.6562V6.25C48.4373 6.0428 48.355 5.84409 48.2085 5.69757C48.0619 5.55106 47.8632 5.46875 47.656 5.46875ZM6.24978 13.2812H5.46853C5.26133 13.2812 5.06261 13.1989 4.9161 13.0524C4.76959 12.9059 4.68728 12.7072 4.68728 12.5V11.7188C4.68728 11.5115 4.76959 11.3128 4.9161 11.1663C5.06261 11.0198 5.26133 10.9375 5.46853 10.9375H6.24978V13.2812ZM37.4998 4.22656L41.867 8.59375H37.4998V4.22656ZM35.9373 3.125V9.375C35.9373 9.5822 36.0196 9.78091 36.1661 9.92743C36.3126 10.0739 36.5113 10.1562 36.7185 10.1562H42.9685V42.9688H24.9998V31.6094C25.0032 30.4327 24.6251 29.2866 23.9223 28.3429C23.2194 27.3993 22.2297 26.7088 21.1013 26.375L19.4138 25.8672C18.7689 25.6765 18.2033 25.2818 17.8018 24.7422C17.4003 24.2027 17.1847 23.5475 17.1873 22.875V22.25C18.1479 21.6073 18.9355 20.738 19.4805 19.7189C20.0255 18.6997 20.3112 17.562 20.3123 16.4062V14.8438H21.0935C21.7146 14.8419 22.3096 14.5944 22.7488 14.1552C23.1879 13.7161 23.4354 13.121 23.4373 12.5V11.7188C23.4354 11.0977 23.1879 10.5027 22.7488 10.0635C22.3096 9.62438 21.7146 9.37685 21.0935 9.375H20.3123V7.03125C20.3127 6.30299 20.167 5.58206 19.8839 4.9111C19.6007 4.24014 19.1859 3.63279 18.6638 3.125H35.9373ZM13.281 26.5078L10.2107 25.3594C10.6522 24.6583 10.8977 23.8516 10.9217 23.0234C11.6788 23.2946 12.4767 23.4346 13.281 23.4375C14.0855 23.4367 14.8837 23.2966 15.6404 23.0234C15.6643 23.8516 15.9098 24.6583 16.3513 25.3594L13.281 26.5078ZM14.0388 29.2031L13.6717 29.6875H12.8904L12.5232 29.2031L13.281 28.4453L14.0388 29.2031ZM17.4842 26.6016C17.6395 26.7173 17.8012 26.8242 17.9685 26.9219L16.8826 29.8359L14.6873 27.6484L17.4842 26.6016ZM20.3123 13.2812V10.9375H21.0935C21.3007 10.9375 21.4994 11.0198 21.646 11.1663C21.7925 11.3128 21.8748 11.5115 21.8748 11.7188V12.5C21.8748 12.7072 21.7925 12.9059 21.646 13.0524C21.4994 13.1989 21.3007 13.2812 21.0935 13.2812H20.3123ZM4.68728 3.36719V3.125H14.8435C15.3565 3.125 15.8645 3.22604 16.3384 3.42235C16.8123 3.61865 17.2429 3.90639 17.6057 4.26911C17.9684 4.63184 18.2561 5.06246 18.4524 5.53639C18.6487 6.01032 18.7498 6.51827 18.7498 7.03125V8.59375H9.91384C8.52831 8.59168 7.20011 8.04037 6.22039 7.06064C5.24066 6.08092 4.68935 4.75272 4.68728 3.36719V3.36719ZM7.81228 16.4062V9.82031C8.49039 10.0437 9.19988 10.1571 9.91384 10.1562H18.7498V16.4062C18.7498 17.8567 18.1736 19.2477 17.148 20.2732C16.1224 21.2988 14.7314 21.875 13.281 21.875C11.8306 21.875 10.4396 21.2988 9.41404 20.2732C8.38845 19.2477 7.81228 17.8567 7.81228 16.4062V16.4062ZM9.08572 26.6016L11.8748 27.6484L9.67947 29.8359L8.59353 26.9219C8.75759 26.8203 8.92947 26.7187 9.08572 26.6016V26.6016ZM7.03103 46.875V34.375H5.46853V46.875H3.12478V31.6094C3.12147 30.7686 3.39179 29.9495 3.89492 29.2759C4.39805 28.6022 5.10669 28.1105 5.91384 27.875L7.1404 27.5078L8.6404 31.5234C8.68696 31.6465 8.76351 31.756 8.8631 31.8419C8.9627 31.9279 9.08219 31.9876 9.21072 32.0156C9.26497 32.0247 9.31979 32.0299 9.37478 32.0312C9.58232 32.0319 9.78169 31.9504 9.92947 31.8047L11.406 30.3203L11.6795 30.6797L9.47634 46.875H7.03103ZM11.0545 46.875L13.1795 31.25H13.3826L15.5076 46.875H11.0545ZM23.4373 46.875H21.0935V34.375H19.531V46.875H17.0857L14.8826 30.6797L15.156 30.3203L16.6326 31.8047C16.7804 31.9504 16.9797 32.0319 17.1873 32.0312C17.2423 32.0299 17.2971 32.0247 17.3513 32.0156C17.4799 31.9876 17.5994 31.9279 17.699 31.8419C17.7986 31.756 17.8751 31.6465 17.9217 31.5234L19.4217 27.5078L20.6482 27.875C21.4554 28.1105 22.164 28.6022 22.6671 29.2759C23.1703 29.9495 23.4406 30.7686 23.4373 31.6094V46.875ZM46.8748 46.875H24.9998V44.5312H43.7498C43.957 44.5312 44.1557 44.4489 44.3022 44.3024C44.4487 44.1559 44.531 43.9572 44.531 43.75V9.375C44.5295 9.16788 44.4484 8.96928 44.3045 8.82031L42.5076 7.03125H46.8748V46.875Z"
+                                            fill="white" />
+                                        <path
+                                            d="M25.0539 17.9688H22.6562V19.5312H25.0539C25.2292 20.9061 25.856 22.1839 26.8361 23.1639C27.8161 24.144 29.0939 24.7708 30.4688 24.9461V27.3438H32.0312V24.9461C33.4061 24.7708 34.6839 24.144 35.6639 23.1639C36.644 22.1839 37.2708 20.9061 37.4461 19.5312H39.8438V17.9688H37.4461C37.2708 16.5939 36.644 15.3161 35.6639 14.3361C34.6839 13.356 33.4061 12.7292 32.0312 12.5539V10.1562H30.4688V12.5539C29.0939 12.7292 27.8161 13.356 26.8361 14.3361C25.856 15.3161 25.2292 16.5939 25.0539 17.9688ZM30.4688 14.1328V15.625H32.0312V14.1328C32.989 14.2965 33.8724 14.7534 34.5595 15.4405C35.2466 16.1276 35.7035 17.011 35.8672 17.9688H34.375V19.5312H35.8672C35.7035 20.489 35.2466 21.3724 34.5595 22.0595C33.8724 22.7466 32.989 23.2035 32.0312 23.3672V21.875H30.4688V23.3672C29.511 23.2035 28.6276 22.7466 27.9405 22.0595C27.2534 21.3724 26.7965 20.489 26.6328 19.5312H28.125V17.9688H26.6328C26.7965 17.011 27.2534 16.1276 27.9405 15.4405C28.6276 14.7534 29.511 14.2965 30.4688 14.1328Z"
+                                            fill="white" />
+                                        <path d="M39.8438 29.6875H26.5625V31.25H39.8438V29.6875Z" fill="white" />
+                                        <path d="M28.9062 32.8125H26.5625V34.375H28.9062V32.8125Z" fill="white" />
+                                        <path d="M39.8438 32.8125H30.4688V34.375H39.8438V32.8125Z" fill="white" />
+                                        <path d="M39.8438 35.9375H26.5625V37.5H39.8438V35.9375Z" fill="white" />
+                                        <path
+                                            d="M13.2812 20.3125C15.0336 20.3125 16.4062 19.2828 16.4062 17.9688H14.8438C14.8438 18.2875 14.2352 18.75 13.2812 18.75C12.3273 18.75 11.7188 18.2875 11.7188 17.9688H10.1562C10.1562 19.2828 11.5289 20.3125 13.2812 20.3125Z"
+                                            fill="white" />
+                                        <path
+                                            d="M10.9375 14.8438C11.1447 14.8438 11.3434 14.7614 11.4899 14.6149C11.6364 14.4684 11.7188 14.2697 11.7188 14.0625V13.2812C11.7188 13.074 11.6364 12.8753 11.4899 12.7288C11.3434 12.5823 11.1447 12.5 10.9375 12.5C10.7303 12.5 10.5316 12.5823 10.3851 12.7288C10.2386 12.8753 10.1562 13.074 10.1562 13.2812V14.0625C10.1562 14.2697 10.2386 14.4684 10.3851 14.6149C10.5316 14.7614 10.7303 14.8438 10.9375 14.8438Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15.625 14.8438C15.8322 14.8438 16.0309 14.7614 16.1774 14.6149C16.3239 14.4684 16.4062 14.2697 16.4062 14.0625V13.2812C16.4062 13.074 16.3239 12.8753 16.1774 12.7288C16.0309 12.5823 15.8322 12.5 15.625 12.5C15.4178 12.5 15.2191 12.5823 15.0726 12.7288C14.9261 12.8753 14.8438 13.074 14.8438 13.2812V14.0625C14.8438 14.2697 14.9261 14.4684 15.0726 14.6149C15.2191 14.7614 15.4178 14.8438 15.625 14.8438Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <h3 class="c-white  f-m-poppins fs-xl fw-lg">120</h3>
+                                <p class="c-white f-m-poppins fs-md fw-md text-center">Top Experts</p>
+                            </div>
+                            <div class="line-5 d-none-md"></div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center gap">
+                            <div class="flex-column d-flex align-items-center justify-content-center">
+                                <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.71981 39.5313L3.79272 42.2951L1.62673 47.3484C1.49551 47.6551 1.57256 48.011 1.81976 48.235C1.967 48.3685 2.15544 48.4375 2.34465 48.4375C2.47359 48.4375 2.60329 48.4059 2.72079 48.3406L18.3458 39.7469C18.596 39.6099 18.7509 39.3475 18.7509 39.0625C18.7509 38.7776 18.596 38.5151 18.3458 38.3782L2.72079 29.7844C2.43087 29.6238 2.06695 29.6654 1.81976 29.8901C1.57256 30.114 1.49551 30.4699 1.62673 30.7766L3.79272 35.8299L1.71981 38.5937C1.51152 38.8714 1.51152 39.2536 1.71981 39.5313ZM5.25093 42.858L12.5851 41.1323L3.95675 45.8779L5.25093 42.858ZM12.5851 36.9927L5.25093 35.267L3.95674 32.2472L12.5851 36.9927ZM5.0066 36.8152L14.5576 39.0625L5.0066 41.3098L3.32122 39.0625L5.0066 36.8152Z"
+                                            fill="white" />
+                                        <path
+                                            d="M35.9375 1.5625C29.3088 1.5625 23.8837 6.7532 23.4771 13.2812H21.4172L19.3024 11.1664L18.1976 12.2711L19.2078 13.2812H16.0156C11.4922 13.2812 7.8125 16.9613 7.8125 21.4844C7.8125 26.0075 11.4922 29.6875 16.0156 29.6875H24.6765L26.7914 31.8024L27.8961 30.6976L26.886 29.6875H41.7969C44.1658 29.6875 46.0938 31.6151 46.0938 33.9844C46.0938 36.3537 44.1658 38.2812 41.7969 38.2812H34.6985L32.5836 36.1664L31.4789 37.2711L32.489 38.2812H20.3125V39.8438H32.489L31.4789 40.8539L32.5836 41.9586L34.6985 39.8438H41.7969C45.0279 39.8438 47.6562 37.2154 47.6562 33.9844C47.6562 30.7533 45.0279 28.125 41.7969 28.125H26.886L27.8961 27.1149L26.7914 26.0101L24.6765 28.125H16.0156C12.3543 28.125 9.375 25.1461 9.375 21.4844C9.375 17.8226 12.3543 14.8438 16.0156 14.8438H19.2078L18.1976 15.8539L19.3024 16.9586L21.4172 14.8438H23.4771C23.8837 21.3718 29.3088 26.5625 35.9375 26.5625C42.8299 26.5625 48.4375 20.9549 48.4375 14.0625C48.4375 7.1701 42.8299 1.5625 35.9375 1.5625ZM35.9375 25C30.1702 25 25.4429 20.5101 25.0396 14.8438H27.3833C27.7798 19.2171 31.4626 22.6562 35.9375 22.6562C40.6761 22.6562 44.5312 18.8011 44.5312 14.0625C44.5312 9.32388 40.6761 5.46875 35.9375 5.46875C31.4626 5.46875 27.7798 8.90789 27.3833 13.2812H25.0396C25.4429 7.6149 30.1702 3.125 35.9375 3.125C41.9685 3.125 46.875 8.03146 46.875 14.0625C46.875 20.0935 41.9685 25 35.9375 25ZM34.1461 16.9586L36.4899 14.6149C36.795 14.3097 36.795 13.8153 36.4899 13.5101L34.1461 11.1664L33.0414 12.2711L34.0515 13.2812H28.9524C29.3426 9.77111 32.3246 7.03125 35.9375 7.03125C39.8148 7.03125 42.9688 10.1856 42.9688 14.0625C42.9688 17.9394 39.8148 21.0938 35.9375 21.0938C32.3246 21.0938 29.3426 18.3539 28.9524 14.8438H34.0515L33.0414 15.8539L34.1461 16.9586Z"
+                                            fill="white" />
+                                        <path
+                                            d="M40.625 14.0625C40.625 11.4777 38.5223 9.375 35.9375 9.375V10.9375C37.661 10.9375 39.0625 12.3394 39.0625 14.0625C39.0625 15.7856 37.661 17.1875 35.9375 17.1875V18.75C38.5223 18.75 40.625 16.6473 40.625 14.0625Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <h3 class="c-white f-m-poppins fs-xl fw-lg">500</h3>
+                                <p class="c-white f-m-poppins fs-md fw-md text-center">Strategies</p>
+                            </div>
+                            <div class="line-5 d-none-lg"></div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center gap">
+                            <div class="flex-column d-flex justify-content-center align-items-center">
+                                <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_450_266)">
+                                            <path
+                                                d="M49.7139 9.17148L40.8271 0.286035C40.644 0.10293 40.3957 0 40.1367 0H11.1328C9.51738 0 8.20312 1.31426 8.20312 2.92969V4.79141C3.40576 6.67324 0 11.3491 0 16.8058C0 17.345 0.437305 17.7823 0.976562 17.7823H12.8995C13.4388 17.7823 13.8761 17.345 13.8761 16.8058V4.88281C13.8761 4.34355 13.4388 3.90625 12.8995 3.90625C11.9583 3.90625 11.0407 4.0085 10.1562 4.20088V2.92969C10.1562 2.39121 10.5943 1.95312 11.1328 1.95312H39.1602V7.91016C39.1602 9.52559 40.4744 10.8398 42.0898 10.8398H48.0469V47.0703C48.0469 47.6088 47.6088 48.0469 47.0703 48.0469H11.1328C10.5943 48.0469 10.1562 47.6088 10.1562 47.0703V38.7044C10.1562 38.1651 9.71895 37.7278 9.17969 37.7278C8.64043 37.7278 8.20312 38.1651 8.20312 38.7044V47.0703C8.20312 48.6857 9.51738 50 11.1328 50H47.0703C48.6857 50 50 48.6857 50 47.0703V9.86201C50 9.60303 49.8971 9.35459 49.7139 9.17148ZM11.9229 5.90264V15.8292H1.99629C2.46318 10.5706 6.66436 6.36953 11.9229 5.90264ZM42.0898 8.88672C41.5514 8.88672 41.1133 8.44863 41.1133 7.91016V3.33398L46.6668 8.88672H42.0898Z"
+                                                fill="white" />
+                                            <path
+                                                d="M9.87002 34.4658C9.68848 34.2841 9.43652 34.1797 9.17969 34.1797C8.92285 34.1797 8.6709 34.2841 8.48926 34.4658C8.30762 34.6475 8.20312 34.8994 8.20312 35.1562C8.20312 35.4131 8.30752 35.665 8.48926 35.8466C8.6709 36.0283 8.92285 36.1328 9.17969 36.1328C9.43652 36.1328 9.68848 36.0283 9.87002 35.8466C10.0518 35.665 10.1562 35.4131 10.1562 35.1562C10.1562 34.8994 10.0518 34.6475 9.87002 34.4658Z"
+                                                fill="white" />
+                                            <path
+                                                d="M16.3979 7.4043C15.8587 7.4043 15.4214 7.8416 15.4214 8.38086V19.3271H4.4751C3.93584 19.3271 3.49854 19.7645 3.49854 20.3037C3.49854 27.4165 9.28516 33.2032 16.3979 33.2032C23.5107 33.2032 29.2975 27.4165 29.2975 20.3037C29.2975 13.1909 23.5107 7.4043 16.3979 7.4043ZM17.3745 9.40068C19.6606 9.60361 21.7467 10.5128 23.4132 11.9075L17.3745 17.9461V9.40068ZM16.3979 31.2501C10.6912 31.2501 5.99033 26.8605 5.49492 21.2803H16.3979C16.6675 21.2803 16.9114 21.1711 17.0882 20.9945C17.0883 20.9944 17.0884 20.9944 17.0886 20.9942L24.7945 13.2884C26.3854 15.1895 27.3443 17.6367 27.3443 20.3037C27.3443 26.3396 22.4338 31.2501 16.3979 31.2501Z"
+                                                fill="white" />
+                                            <path
+                                                d="M42.7811 30.8208C41.1656 30.8208 39.8514 32.1351 39.8514 33.7505C39.8514 34.1554 39.934 34.5412 40.0831 34.8923L34.4568 40.5186C34.0702 40.3302 33.6362 40.2242 33.178 40.2242C32.7307 40.2242 32.3066 40.3254 31.9271 40.5054L28.1909 36.7692C28.3204 36.4388 28.3923 36.0795 28.3923 35.7035C28.3923 34.0881 27.078 32.7738 25.4626 32.7738C23.8472 32.7738 22.5329 34.0881 22.5329 35.7035C22.5329 36.1412 22.6301 36.5564 22.8029 36.9298L19.2194 40.5133C18.8377 40.3307 18.4105 40.2282 17.96 40.2282C16.3445 40.2282 15.0303 41.5425 15.0303 43.1579C15.0303 44.7733 16.3445 46.0876 17.96 46.0876C19.5754 46.0876 20.8896 44.7733 20.8896 43.1579C20.8896 42.7051 20.7863 42.276 20.6021 41.8929L24.1656 38.3294C24.5569 38.5235 24.9972 38.6332 25.4628 38.6332C25.9887 38.6332 26.4821 38.4933 26.9092 38.2497L30.5399 41.8805C30.3532 42.2657 30.2483 42.6978 30.2483 43.1539C30.2483 44.7693 31.5626 46.0836 33.178 46.0836C34.7935 46.0836 36.1077 44.7693 36.1077 43.1539C36.1077 42.7088 36.0075 42.2867 35.8291 41.9086L41.4028 36.3349C41.8139 36.555 42.2831 36.6802 42.7811 36.6802C44.3965 36.6802 45.7107 35.3659 45.7107 33.7505C45.7107 32.1351 44.3965 30.8208 42.7811 30.8208ZM17.9599 44.1346C17.4214 44.1346 16.9833 43.6965 16.9833 43.158C16.9833 42.6195 17.4214 42.1814 17.9599 42.1814C18.2221 42.1814 18.4599 42.2858 18.6354 42.4546C18.6394 42.4587 18.6428 42.4631 18.6468 42.4671C18.6515 42.4718 18.6565 42.4757 18.6613 42.4802C18.8313 42.656 18.9364 42.8948 18.9364 43.158C18.9364 43.6964 18.4983 44.1346 17.9599 44.1346ZM25.4626 36.6801C24.9241 36.6801 24.486 36.242 24.486 35.7035C24.486 35.165 24.9241 34.727 25.4626 34.727C26.0011 34.727 26.4392 35.165 26.4392 35.7035C26.4392 36.242 26.0011 36.6801 25.4626 36.6801ZM33.1778 44.1305C32.6394 44.1305 32.2013 43.6924 32.2013 43.1539C32.2013 42.6154 32.6394 42.1773 33.1778 42.1773C33.7163 42.1773 34.1544 42.6154 34.1544 43.1539C34.1544 43.6924 33.7163 44.1305 33.1778 44.1305ZM42.7809 34.727C42.2424 34.727 41.8043 34.2889 41.8043 33.7504C41.8043 33.2119 42.2425 32.7738 42.7809 32.7738C43.3193 32.7738 43.7574 33.2119 43.7574 33.7504C43.7574 34.2889 43.3193 34.727 42.7809 34.727Z"
+                                                fill="white" />
+                                            <path
+                                                d="M37.8998 22.9492H32.7456C32.2063 22.9492 31.769 23.3865 31.769 23.9258C31.769 24.465 32.2062 24.9023 32.7456 24.9023H37.8998C38.4391 24.9023 38.8764 24.465 38.8764 23.9258C38.8764 23.3865 38.4391 22.9492 37.8998 22.9492Z"
+                                                fill="white" />
+                                            <path
+                                                d="M43.037 23.2354C42.8555 23.0537 42.6035 22.9492 42.3467 22.9492C42.0898 22.9492 41.8379 23.0536 41.6562 23.2354C41.4746 23.417 41.3701 23.6689 41.3701 23.9258C41.3701 24.1826 41.4745 24.4346 41.6562 24.6161C41.8379 24.7978 42.0889 24.9023 42.3467 24.9023C42.6035 24.9023 42.8555 24.7979 43.037 24.6161C43.2187 24.4346 43.3232 24.1826 43.3232 23.9258C43.3232 23.6689 43.2188 23.417 43.037 23.2354Z"
+                                                fill="white" />
+                                            <path
+                                                d="M44.6747 13.5742H32.7456C32.2063 13.5742 31.769 14.0115 31.769 14.5508C31.769 15.09 32.2062 15.5273 32.7456 15.5273H44.6747C45.214 15.5273 45.6513 15.09 45.6513 14.5508C45.6513 14.0115 45.214 13.5742 44.6747 13.5742Z"
+                                                fill="white" />
+                                            <path
+                                                d="M44.6747 18.2617H32.7456C32.2063 18.2617 31.769 18.699 31.769 19.2383C31.769 19.7775 32.2062 20.2148 32.7456 20.2148H44.6747C45.214 20.2148 45.6513 19.7775 45.6513 19.2383C45.6513 18.699 45.214 18.2617 44.6747 18.2617Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_450_266">
+                                                <rect width="50" height="50" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <h3 class="c-white f-m-poppins fs-xl fw-lg">347</h3>
+                                <p class="c-white f-m-poppins fs-md fw-md text-center">Great Results</p>
+                            </div>
+                            <div class="line-5 d-none-md"></div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="flex-column d-flex justify-content-center align-items-center">
+                                <span><svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M47.6562 43.7501H46.875V15.6251C46.875 15.4179 46.7927 15.2192 46.6462 15.0726C46.4997 14.9261 46.3009 14.8438 46.0938 14.8438H33.8234C34.4422 13.0752 34.8495 11.2395 35.0367 9.37508H39.0625C39.217 9.37504 39.368 9.32921 39.4965 9.24336C39.6249 9.15751 39.725 9.03551 39.7841 8.89278C39.8432 8.75004 39.8587 8.59298 39.8286 8.44146C39.7985 8.28993 39.7241 8.15074 39.6148 8.04148L33.3648 1.79148C33.2183 1.64502 33.0197 1.56274 32.8125 1.56274C32.6053 1.56274 32.4067 1.64502 32.2602 1.79148L26.0102 8.04148C25.9009 8.15074 25.8265 8.28993 25.7964 8.44146C25.7663 8.59298 25.7818 8.75004 25.8409 8.89278C25.9 9.03551 26.0001 9.15751 26.1285 9.24336C26.257 9.32921 26.408 9.37504 26.5625 9.37508H29.0289C28.1166 11.4385 26.7997 13.2981 25.1562 14.8438H3.90625C3.69905 14.8438 3.50034 14.9261 3.35382 15.0726C3.20731 15.2192 3.125 15.4179 3.125 15.6251V43.7501H2.34375C2.13655 43.7501 1.93784 43.8324 1.79132 43.9789C1.64481 44.1254 1.5625 44.3241 1.5625 44.5313V46.0938C1.5625 46.7154 1.80943 47.3116 2.24897 47.7511C2.68851 48.1906 3.28465 48.4376 3.90625 48.4376H46.0938C46.7154 48.4376 47.3115 48.1906 47.751 47.7511C48.1906 47.3116 48.4375 46.7154 48.4375 46.0938V44.5313C48.4375 44.3241 48.3552 44.1254 48.2087 43.9789C48.0622 43.8324 47.8634 43.7501 47.6562 43.7501ZM30.9188 8.86023C30.9616 8.74224 30.9753 8.61567 30.9588 8.49124C30.9423 8.3668 30.8961 8.24818 30.8241 8.14539C30.752 8.04261 30.6563 7.9587 30.5449 7.90077C30.4336 7.84284 30.3099 7.81259 30.1844 7.81258H28.4484L32.8125 3.44851L37.1766 7.81258H34.3172C34.1186 7.81214 33.9273 7.88734 33.7822 8.02288C33.6371 8.15842 33.549 8.34413 33.5359 8.54226C33.1772 13.6982 31.0525 18.573 27.5197 22.3456C23.987 26.1181 19.262 28.5579 14.1406 29.254L11.7188 29.5759V21.0087C15.8095 21.3766 19.9076 20.3858 23.3784 18.1897C26.8493 15.9936 29.4995 12.7145 30.9188 8.86023ZM4.6875 16.4063H23.2258C19.7399 18.8698 15.4546 19.9313 11.2219 19.3798L11.0437 19.3548C10.9331 19.3396 10.8205 19.3483 10.7136 19.3803C10.6066 19.4123 10.5077 19.4669 10.4236 19.5403C10.3395 19.6137 10.2721 19.7043 10.226 19.806C10.1799 19.9077 10.1561 20.0181 10.1562 20.1298V30.4688C10.1562 30.676 10.2386 30.8747 10.3851 31.0213C10.5316 31.1678 10.7303 31.2501 10.9375 31.2501C10.972 31.2501 11.0064 31.2477 11.0406 31.243L14.3438 30.8032C18.466 30.241 22.3718 28.6189 25.6795 26.0955C28.9872 23.572 31.5835 20.2335 33.2148 16.4063H45.3125V43.7501H43.75V18.7501C43.75 18.5429 43.6677 18.3442 43.5212 18.1976C43.3747 18.0511 43.1759 17.9688 42.9688 17.9688H34.375V19.5313H42.1875V43.7501H7.8125V19.5313H9.375V17.9688H7.03125C6.82405 17.9688 6.62534 18.0511 6.47882 18.1976C6.33231 18.3442 6.25 18.5429 6.25 18.7501V43.7501H4.6875V16.4063ZM46.875 46.0938C46.875 46.301 46.7927 46.4997 46.6462 46.6463C46.4997 46.7928 46.3009 46.8751 46.0938 46.8751H3.90625C3.69905 46.8751 3.50034 46.7928 3.35382 46.6463C3.20731 46.4997 3.125 46.301 3.125 46.0938V45.3126H46.875V46.0938Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.375 42.9688H40.625V41.4062H37.5V23.4375C37.5 23.2303 37.4177 23.0316 37.2712 22.8851C37.1247 22.7386 36.926 22.6562 36.7188 22.6562H32.0312C31.824 22.6562 31.6253 22.7386 31.4788 22.8851C31.3323 23.0316 31.25 23.2303 31.25 23.4375V41.4062H28.125V29.6875C28.125 29.4803 28.0427 29.2816 27.8962 29.1351C27.7497 28.9886 27.551 28.9062 27.3438 28.9062H22.6562C22.449 28.9062 22.2503 28.9886 22.1038 29.1351C21.9573 29.2816 21.875 29.4803 21.875 29.6875V41.4062H18.75V33.5938C18.75 33.3865 18.6677 33.1878 18.5212 33.0413C18.3747 32.8948 18.176 32.8125 17.9688 32.8125H13.2812C13.074 32.8125 12.8753 32.8948 12.7288 33.0413C12.5823 33.1878 12.5 33.3865 12.5 33.5938V41.4062H9.375V42.9688ZM32.8125 24.2188H35.9375V41.4062H32.8125V24.2188ZM23.4375 30.4688H26.5625V41.4062H23.4375V30.4688ZM14.0625 34.375H17.1875V41.4062H14.0625V34.375Z"
+                                            fill="white" />
+                                        <path d="M21.0938 1.5625H22.6562V3.125H21.0938V1.5625Z" fill="white" />
+                                        <path d="M22.6562 3.125H24.2188V4.6875H22.6562V3.125Z" fill="white" />
+                                        <path d="M21.0938 4.6875H22.6562V6.25H21.0938V4.6875Z" fill="white" />
+                                        <path d="M19.5312 3.125H21.0938V4.6875H19.5312V3.125Z" fill="white" />
+                                        <path d="M17.9688 7.8125H19.5312V9.375H17.9688V7.8125Z" fill="white" />
+                                        <path d="M46.875 9.375H48.4375V10.9375H46.875V9.375Z" fill="white" />
+                                        <path d="M45.3125 10.9375H46.875V12.5H45.3125V10.9375Z" fill="white" />
+                                        <path d="M43.75 9.375H45.3125V10.9375H43.75V9.375Z" fill="white" />
+                                        <path d="M45.3125 7.8125H46.875V9.375H45.3125V7.8125Z" fill="white" />
+                                        <path d="M42.1875 4.6875H43.75V6.25H42.1875V4.6875Z" fill="white" />
+                                        <path
+                                            d="M14.0625 25.0001H12.5V27.3438C12.5 27.551 12.5823 27.7498 12.7288 27.8963C12.8753 28.0428 13.074 28.1251 13.2812 28.1251C15.951 28.0088 18.5357 27.1518 20.7461 25.6501L19.8789 24.3501C18.138 25.5218 16.1452 26.2664 14.0625 26.5235V25.0001Z"
+                                            fill="white" />
+                                        <path d="M12.5 21.875H14.0625V23.4375H12.5V21.875Z" fill="white" />
+                                    </svg>
+                                </span>
+                                <h3 class="c-white f-m-poppins fs-xl fw-lg">120</h3>
+                                <p class="c-white f-m-poppins fs-md fw-md text-center">Hight Rankings</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
-
-
-
+    <!-- Section Seventh -->
     <section class="bg-color">
         <div class="container-1  py-5">
             <div class="d-flex justify-content-center align-items-center">
@@ -303,10 +833,10 @@
 
 
             <div class="row">
-                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                <div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
                     <div class="bordr p-3 ">
-                        <img class="w-10" src="/assets/img/png/img8-1.png" alt="">
-                        <h5 class="f-m-poppins fs-md fw-md max-width-340">35 Stellar Graphic Design Blogs to Keep
+                        <img class="w-100" src="/assets/img/png/img8-1.png" alt="">
+                        <h5 class="f-m-poppins fs-19 fw-md max-width-340">35 Stellar Graphic Design Blogs to Keep
                             YouEducated and
                             Inspired</h5>
                         <div class="d-flex align-items-center">
@@ -385,9 +915,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                <div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
                     <div class="bordr p-3 ">
-                        <img class="w-10" src="/assets/img/png/img8-2.png" alt="">
+                        <img class="w-100" src="/assets/img/png/img8-2.png" alt="">
                         <h5 class="f-m-poppins fs-md fw-md">Ridiculously powerful 2021 iPad Pro may drop this month</h5>
                         <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
@@ -464,9 +994,9 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="bordr p-3">
-                        <img class="" src="/assets/img/png/img8-3.png" alt="">
+                        <img class="w-100" src="/assets/img/png/img8-3.png" alt="">
                         <h5 class="f-m-poppins fs-md fw-md">Memphis Design: the defining look of the 1980s</h5>
                         <div class="d-flex align-items-center">
                             <span class="hover">
@@ -537,9 +1067,224 @@
                 </div>
             </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    <!-- ----------Section Eighth----- -->
+    <section class="my-5">
+        <div class="container">
+            <div
+                class="bg-color-2 d-flex justify-content-between align-items-center py-5 px-4 br-10 flex-column flex-lg-row">
+                <div class="">
+                    <div class="d-flex align-items-center">
+                        <h2 class="fm-poppins fw-sm fs-xsm color-3 mb-3">Subscribe Newsletter</h2>
+                        <div class="line-s7 ms-2 mb-2"></div>
+                    </div>
+                    <h1 class="fm-poppins fs-xl fw-lg color-3 mt-1">Lets Stay In Touch</h1>
+                </div>
+                <div class="bg-color-3 box-s7 d-flex justify-content-between align-items-center fd-column">
+                    <div class="mb-2 mb-sm-0">
+                        <input class="email fm-poppins fw-sm fs-xsm color-2 ps-3" type="email"
+                            placeholder="Enter your email">
+                    </div>
+
+                    <button class="Subscribe fm-poppins fw-md fs-md color-3 me-1 ms-1 ms-sm-0 mb-1 mb-sm-0">Subscribe
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----Footer------>
+    <footer class="bg-color-4 pt-5">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <h1 class="fm-work-sans fs-xl color-3 mb-4 pointer"><span class="color-4">Digi</span>ency</h1>
+                    <p class="fm-poppins fs-xsm fw-sm color-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Tortor facilisi quis risus egestas
+                        ipsum.</p>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <h1 class="fm-poppins fw-lg fs-lg color-4 mb-4 mt-3">Location</h1>
+                    <p class="fm-poppins fs-md fw-md color-3 pointer">3517 W. Gray St. Utica, Pennsylvania 57867</p>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <h1 class="fm-poppins fw-lg fs-lg color-4 mb-4 mt-3">Call Us</h1>
+                    <p class="fm-poppins fs-md fw-md color-3 pointer">(252) 555-0126</p>
+                    <p class="fm-poppins fs-md fw-md color-3 pointer">info@youremai.com</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                    <h1 class="fm-poppins fw-lg fs-lg color-4 mb-4 mt-3">Follow Us</h1>
+                    <div class="d-flex">
+                        <a class="me-2 svg-box" href="http://facebook.com">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g class="path" clip-path="url(#clip0_394_3624)">
+                                    <path
+                                        d="M27 26.5H29.5L30.5 22.5H27V20.5C27 19.47 27 18.5 29 18.5H30.5V15.14C30.174 15.097 28.943 15 27.643 15C24.928 15 23 16.657 23 19.7V22.5H20V26.5H23V35H27V26.5Z"
+                                        fill="#373737" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_394_3624">
+                                        <rect width="24" height="24" fill="white" transform="translate(13 13)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a class="me-2 svg-box" href="http://instagram.com">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+
+                                <path
+                                    d="M25 15C27.717 15 28.056 15.01 29.122 15.06C30.187 15.11 30.912 15.277 31.55 15.525C32.21 15.779 32.766 16.123 33.322 16.678C33.8305 17.1779 34.224 17.7826 34.475 18.45C34.722 19.087 34.89 19.813 34.94 20.878C34.987 21.944 35 22.283 35 25C35 27.717 34.99 28.056 34.94 29.122C34.89 30.187 34.722 30.912 34.475 31.55C34.2247 32.2178 33.8311 32.8226 33.322 33.322C32.822 33.8303 32.2173 34.2238 31.55 34.475C30.913 34.722 30.187 34.89 29.122 34.94C28.056 34.987 27.717 35 25 35C22.283 35 21.944 34.99 20.878 34.94C19.813 34.89 19.088 34.722 18.45 34.475C17.7823 34.2245 17.1775 33.8309 16.678 33.322C16.1694 32.8222 15.7759 32.2175 15.525 31.55C15.277 30.913 15.11 30.187 15.06 29.122C15.013 28.056 15 27.717 15 25C15 22.283 15.01 21.944 15.06 20.878C15.11 19.812 15.277 19.088 15.525 18.45C15.7752 17.7822 16.1688 17.1773 16.678 16.678C17.1777 16.1692 17.7824 15.7757 18.45 15.525C19.088 15.277 19.812 15.11 20.878 15.06C21.944 15.013 22.283 15 25 15ZM25 20C23.6739 20 22.4021 20.5268 21.4645 21.4645C20.5268 22.4021 20 23.6739 20 25C20 26.3261 20.5268 27.5979 21.4645 28.5355C22.4021 29.4732 23.6739 30 25 30C26.3261 30 27.5979 29.4732 28.5355 28.5355C29.4732 27.5979 30 26.3261 30 25C30 23.6739 29.4732 22.4021 28.5355 21.4645C27.5979 20.5268 26.3261 20 25 20ZM31.5 19.75C31.5 19.4185 31.3683 19.1005 31.1339 18.8661C30.8995 18.6317 30.5815 18.5 30.25 18.5C29.9185 18.5 29.6005 18.6317 29.3661 18.8661C29.1317 19.1005 29 19.4185 29 19.75C29 20.0815 29.1317 20.3995 29.3661 20.6339C29.6005 20.8683 29.9185 21 30.25 21C30.5815 21 30.8995 20.8683 31.1339 20.6339C31.3683 20.3995 31.5 20.0815 31.5 19.75ZM25 22C25.7956 22 26.5587 22.3161 27.1213 22.8787C27.6839 23.4413 28 24.2044 28 25C28 25.7956 27.6839 26.5587 27.1213 27.1213C26.5587 27.6839 25.7956 28 25 28C24.2044 28 23.4413 27.6839 22.8787 27.1213C22.3161 26.5587 22 25.7956 22 25C22 24.2044 22.3161 23.4413 22.8787 22.8787C23.4413 22.3161 24.2044 22 25 22Z"
+                                    fill="#373737" />
+                            </svg>
+
+
+                        </a>
+                        <a class="me-2 svg-box" href="http://starbuks.com">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+
+                                <path
+                                    d="M26.3102 33.4002C24.9879 33.6067 23.6355 33.4981 22.3631 33.0832C21.0907 32.6683 19.9343 31.9588 18.9879 31.0124C18.0416 30.0661 17.3321 28.9096 16.9171 27.6372C16.5022 26.3648 16.3936 25.0125 16.6002 23.6902C16.0789 22.6987 15.8884 21.5664 16.0566 20.459C16.2247 19.3515 16.7427 18.3268 17.5348 17.5348C18.3268 16.7427 19.3515 16.2247 20.459 16.0566C21.5664 15.8884 22.6987 16.0789 23.6902 16.6002C25.0125 16.3936 26.3648 16.5022 27.6372 16.9171C28.9096 17.3321 30.0661 18.0416 31.0124 18.9879C31.9588 19.9343 32.6683 21.0907 33.0832 22.3631C33.4981 23.6355 33.6067 24.9879 33.4002 26.3102C33.9214 27.3016 34.1119 28.4339 33.9437 29.5413C33.7756 30.6488 33.2576 31.6735 32.4655 32.4655C31.6735 33.2576 30.6488 33.7756 29.5413 33.9437C28.4339 34.1119 27.3016 33.9214 26.3102 33.4002ZM25.0522 30.1562H25.0122C27.8842 30.1562 29.3152 28.7702 29.3152 26.9132C29.3152 25.7152 28.7642 24.4422 26.5892 23.9552L24.6062 23.5152C23.8512 23.3432 22.9842 23.1152 22.9842 22.4002C22.9842 21.6852 23.6042 21.1872 24.7082 21.1872C26.9382 21.1872 26.7352 22.7152 27.8392 22.7152C28.4152 22.7152 28.9322 22.3732 28.9322 21.7852C28.9322 20.4152 26.7352 19.3852 24.8762 19.3852C22.8552 19.3852 20.7032 20.2442 20.7032 22.5292C20.7032 23.6272 21.0972 24.7992 23.2632 25.3422L25.9522 26.0132C26.7682 26.2152 26.9702 26.6722 26.9702 27.0852C26.9702 27.7722 26.2862 28.4432 25.0522 28.4432C22.6352 28.4432 22.9742 26.5862 21.6782 26.5862C21.0982 26.5862 20.6752 26.9842 20.6752 27.5572C20.6752 28.6712 22.0272 30.1552 25.0522 30.1552V30.1562Z"
+                                    fill="#373737" />
+                            </svg>
+                        </a>
+                        <a class="svg-box" href="http://twitter.com">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_394_3633)">
+                                    <path
+                                        d="M35.1618 18.6559C34.3984 18.9936 33.5888 19.2154 32.7598 19.3139C33.6336 18.7914 34.2875 17.9689 34.5998 16.9999C33.7798 17.4879 32.8808 17.8299 31.9438 18.0149C31.3144 17.3415 30.4802 16.8949 29.5708 16.7445C28.6614 16.5941 27.7277 16.7484 26.9151 17.1834C26.1024 17.6183 25.4562 18.3096 25.0769 19.1497C24.6976 19.9898 24.6066 20.9317 24.8178 21.8289C23.1549 21.7456 21.5281 21.3134 20.0431 20.5606C18.5581 19.8077 17.2479 18.751 16.1978 17.4589C15.8261 18.0974 15.6308 18.8232 15.6318 19.5619C15.6318 21.0119 16.3698 22.2929 17.4918 23.0429C16.8278 23.022 16.1784 22.8427 15.5978 22.5199V22.5719C15.598 23.5376 15.9322 24.4735 16.5437 25.221C17.1551 25.9684 18.0063 26.4814 18.9528 26.6729C18.3364 26.84 17.6901 26.8646 17.0628 26.7449C17.3297 27.5762 17.8498 28.3031 18.5504 28.824C19.251 29.3449 20.0969 29.6337 20.9698 29.6499C20.1023 30.3313 19.109 30.8349 18.0467 31.1321C16.9844 31.4293 15.8739 31.5142 14.7788 31.3819C16.6905 32.6114 18.9159 33.264 21.1888 33.2619C28.8818 33.2619 33.0888 26.8889 33.0888 21.3619C33.0888 21.1819 33.0838 20.9999 33.0758 20.8219C33.8947 20.2301 34.6014 19.4969 35.1628 18.6569L35.1618 18.6559Z"
+                                        fill="#373737" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_394_3633">
+                                        <rect width="24" height="24" fill="white" transform="translate(13 13)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="underline mt-5">
+            </div>
+            <div class="row align-items-center mt-1">
+                <div class="col-xl-5 col-md-6 col-12 mb-xl-0 mb-md-3 mb-3">
+                    <div class="d-flex">
+                        <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_495_9)">
+                                    <path
+                                        d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4ZM12 7C13.82 7 15.413 7.973 16.288 9.428L14.574 10.457C14.3043 10.0072 13.9213 9.63605 13.4634 9.38045C13.0055 9.12484 12.4885 8.99374 11.9641 9.00023C11.4397 9.00672 10.9262 9.15056 10.4747 9.41742C10.0232 9.68428 9.6496 10.0648 9.39107 10.5211C9.13254 10.9774 8.99815 11.4935 9.00128 12.0179C9.00442 12.5424 9.14498 13.0568 9.40895 13.51C9.67292 13.9632 10.0511 14.3392 10.5057 14.6007C10.9603 14.8621 11.4756 14.9998 12 15C12.5181 15.0003 13.0275 14.8664 13.4785 14.6112C13.9294 14.356 14.3065 13.9883 14.573 13.544L16.288 14.572C15.726 15.5106 14.8716 16.239 13.8559 16.6453C12.8402 17.0517 11.7192 17.1137 10.6649 16.8217C9.61058 16.5298 8.68114 15.9 8.01914 15.029C7.35713 14.1581 6.99912 13.094 7 12C7 9.24 9.24 7 12 7Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_495_9">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                        <p class="fs-xsm fm-work-sans color-3 ms-2 mb-0 pointer">Copyright 2021. All Right Reserved By
+                            Ojjomedia
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-xl-0 mb-md-3 mb-3">
+                    <div class="d-flex">
+                        <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 15.5C12.1421 15.5 15.5 12.1421 15.5 8C15.5 3.85786 12.1421 0.5 8 0.5C3.85786 0.5 0.5 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5Z"
+                                    fill="#FF5300" />
+                            </svg>
+                        </span>
+                        <p class="fm-poppins fs-xsm fw-sm color-3 ms-1 mb-0 pointer">Privacy Plicy</p>
+                        <span class="ms-5"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 15.5C12.1421 15.5 15.5 12.1421 15.5 8C15.5 3.85786 12.1421 0.5 8 0.5C3.85786 0.5 0.5 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5Z"
+                                    fill="#FF5300" />
+                            </svg>
+                        </span>
+                        <p class="fm-poppins fs-xsm fw-sm color-3 ms-1 mb-0 pointer">Therms of Us</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-12 d-flex  justify-content-xl-end">
+                    <div>
+                        <a class="download-svg" href="#"><svg width="58" height="58" viewBox="0 0 58 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_394_3647)">
+                                    <path
+                                        d="M30.5103 28.9998V41.0832H27.4894V28.9998H16.9165L28.9998 16.9165L41.0832 28.9998H30.5103Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_394_3647">
+                                        <rect width="36.25" height="36.25" fill="white"
+                                            transform="translate(10.875 10.875)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ---jquery Link--- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slink slider js Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- Slick Slider js Script-- -->
+    <script>$('.move').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            speed: 200,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        dots: false,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });</script>
 </body>
 
 </html>

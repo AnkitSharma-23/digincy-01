@@ -76,7 +76,7 @@
 
 /* -------------- */
 /* -------first section with header---- */
-.btn-1 {
+.btn-s1 {
     border: none;
     width: 182px;
     height: 50px;
@@ -86,7 +86,7 @@
     border-radius: 5px;
 }
 
-.btn-1:hover {
+.btn-s1:hover {
     background-color: white;
     color: rgba(255, 83, 0, 1);
     border: 2px solid rgba(255, 83, 0, 1);
